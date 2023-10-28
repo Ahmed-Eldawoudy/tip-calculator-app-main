@@ -24,7 +24,6 @@ export default function Claculator() {
   const [totalPerPerson, setTotalPerPerson] = useState("0.00");
   const [disabled, setDisabled] = useState(true);
   //
-  console.log(tipPerPerson);
   //
   const handleBillChange = (e) => {
     setBill(e.target.value);
