@@ -21,4 +21,5 @@ export default {
     extend: {},
   },
   plugins: [],
+  safelist: ["text-neutral-100"],
 };
